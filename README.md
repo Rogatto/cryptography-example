@@ -1,4 +1,4 @@
-# crypto-example
+# crypto-AES-example
 There are many examples about encryption and decryption informations with Node JS
 
 # how to use
