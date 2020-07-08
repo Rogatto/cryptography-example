@@ -11,7 +11,7 @@ leitor.question("Qual sua chave secreta?\n", function(secret) {
 
         // Decrypt
         var bytes  = CryptoJS.AES.decrypt(cipherText, secret);
-        var decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+        var decryptedData = bytes.toString(CryptoJS.enc.Utf8);
 
         console.log("Cartão aberto: " , decryptedData);
         
